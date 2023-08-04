@@ -1,10 +1,10 @@
 import React from "react";
 import {
   HomeIcon as Outline,
-  MagnifyingGlassIcon as Search,
+  SearchCircleIcon,
   HeartIcon as She,
   PlusCircleIcon as Plus,
-} from "@heroicons/react/24/outline";
+} from "@heroicons/react/outline";
 
 type Props = {};
 

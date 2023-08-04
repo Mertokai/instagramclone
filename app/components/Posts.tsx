@@ -1,11 +1,11 @@
 import React from "react";
 import {
-  MagnifyingGlassIcon,
+  SearchCircleIcon,
   HeartIcon,
   InboxIcon,
   PlusCircleIcon,
-  EllipsisHorizontalIcon,
-} from "@heroicons/react/24/outline";
+  DotsCircleHorizontalIcon,
+} from "@heroicons/react/outline";
 
 type Props = {
   image: string;
@@ -22,7 +22,7 @@ const Posts = ({ image, des, name }: Props) => {
           <p>{name}</p>
         </div>
         <div>
-          <EllipsisHorizontalIcon className="w-6 h-6 cursor-pointer" />
+          <DotsCircleHorizontalIcon className="w-6 h-6 cursor-pointer" />
         </div>
       </div>
       <div className="md:w-[468.4px] md:h-[585.5px] rounded-md flex  ">

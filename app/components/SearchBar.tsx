@@ -1,5 +1,5 @@
 import React from "react";
-import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import { SearchCircleIcon } from "@heroicons/react/outline";
 type Props = {};
 
 const SearchBar = (props: Props) => {
@@ -13,7 +13,7 @@ const SearchBar = (props: Props) => {
           placeholder="Search"
         />
         <div className="bg-gray-200 h-[40px] w-9 absolute top-[72px] rounded-l-lg left-[15px] flex justify-center items-center">
-          <MagnifyingGlassIcon className=" w-6 h-6" />
+          <SearchCircleIcon className=" w-6 h-6" />
         </div>
       </div>
       <div>

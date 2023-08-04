@@ -1,15 +1,14 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
 import {
   HomeIcon as Outline,
-  MagnifyingGlassIcon as Search,
+  SearchCircleIcon,
   HeartIcon as She,
   PlusCircleIcon as Plus,
   VideoCameraIcon,
   InboxIcon,
   FolderIcon,
-} from "@heroIcons/react/24/outline";
+} from "@heroicons/react/outline";
 
 import Logo from "./Logo";
 import { useState } from "react";
@@ -29,7 +28,7 @@ const SidebarPc = (props: Props) => {
         <div className="w-[220px] flex-col lg:pl-6 space-y-6 py-10 md:pl-2">
           <Logo mm={mm} />
           <Meh Icon={Outline} des="Home" mm={mm} />
-          <Meh Icon={Search} des="Search" mm={mm} mel={mel} />
+          <Meh Icon={SearchCircleIcon} des="Search" mm={mm} mel={mel} />
           <Meh Icon={VideoCameraIcon} des="Discover" mm={mm} />
           <Meh Icon={InboxIcon} des="Messages" mm={mm} />
           <Meh Icon={Plus} des="Notifications" mm={mm} />
