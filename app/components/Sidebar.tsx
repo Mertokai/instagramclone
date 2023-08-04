@@ -5,7 +5,6 @@ import {
   HeartIcon as She,
   PlusCircleIcon as Plus,
 } from "@heroicons/react/24/outline";
-import { UserButton } from "@clerk/nextjs";
 
 type Props = {};
 
@@ -15,7 +14,6 @@ const Sidebar = (props: Props) => {
       <Outline className="h-3/4" />
       <She className="h-3/4" />
       <Plus className="h-3/4" />
-      <UserButton />
     </div>
   );
 };
